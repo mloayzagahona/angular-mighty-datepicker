@@ -1,4 +1,4 @@
-(function() {
+define(['moment', 'angular'], function(moment, angular) {
   angular.module("mightyDatepicker", []).directive("mightyDatepicker", [
     "$compile", function($compile) {
       var options, pickerTemplate;
@@ -283,5 +283,5 @@
       };
     }
   ]);
+});
 
-}).call(this);
